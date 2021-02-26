@@ -1,0 +1,16 @@
+<html>
+		
+		<div style = "text-align:center;">
+			{% if info %}
+                                <h3> File name: </h3>
+                                <p> {{title}}</p>
+                                <h3> Correctness: </h3>
+                                <p> Score: {{correct}} out of 2 correct.</p>
+                                <h3> Content: </h3>
+                                <p> {{info}} </p>
+                        {% else %}
+
+                        {% endif %}
+		</div>
+
+</html>

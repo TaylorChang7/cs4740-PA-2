@@ -1,0 +1,34 @@
+from flask import Flask, render_template, request
+from werkzeug.utils import secure_filename
+from werkzeug.datastructures import FileStorage
+import subprocess,os
+app = Flask(__name__)
+
+@app.route('/upload')
+def uploader():
+	#p = subprocess.call("./autograder.py", shell = True)
+	return render_template('upload.html')
+
+@app.route('/uploader',methods = ['GET','POST'])
+def upload_file():
+	if request.method == 'POST':
+		f = request.files['file']
+		f.save(secure_filename(f.filename))
+		num_correct = subprocess.call("./execute_submission_and_assess_output.sh",shell= True)
+		if int(num_correct) == 2:
+			return ("Score:" + str(num_correct)+ "out of 2 correct.")
+		else:
+			return "Invalid"
+		"""
+		f is a file that user submits
+		we can run the autograder.py on this script
+		if it is valid, then  print the "success" message
+		otherwise, print "invalid script"
+		"""
+		#return 'file uploaded successfully'
+#subprocess.run('ls',shell = True,)
+if __name__ == '__main__':
+	app.run(debug = True,host = "0.0.0.0")
+
+
+
