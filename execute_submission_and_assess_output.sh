@@ -9,7 +9,7 @@ if [ $? = 0 ]; then
 fi
 
 tmpoutput=`echo -e 10 '\n' 2 | python $1`
-f1=`echo $tmpoutput | grep -q '2'`
+f1=`echo $tmpoutput | grep -q '8'`
 if [ $? = 0 ]; then
     let CORRECT=CORRECT+1
 fi

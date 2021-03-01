@@ -5,16 +5,30 @@ import subprocess
 import os
 app = Flask(__name__)
 
+#app.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd())
+#container = os.path.join(app.instance_path,'uploads')
+#os.makedirs(container,exists_ok = True)
+#print(os.path.join(os.getcwd()))
+app.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd())
+
 @app.route('/upload')
-def uploader():
+def upload():
 	#p = subprocess.call("./autograder.py", shell = True)
 	return render_template('upload.html')
+@app.route('/')
+def main_page():
+	return render_template('home.html')
 
 @app.route('/uploader',methods = ['GET','POST'])
-def upload_file():
+def uploader():
 	if request.method == 'POST':
 		f = request.files['file']
-		f.save(os.path.join("/home/ubuntu/",secure_filename(f.filename)))
+		# Testing
+		#print(os.path.join("/home/ubuntu/",secure_filename(f.filename)))
+		#f.save(os.path.join("/home/ubuntu/",secure_filename(f.filename)))
+		print(os.path.join(os.getcwd()))
+		f.save(os.path.join(os.getcwd(),secure_filename(f.filename)))
+
 		print(f.filename)
 		file_str = f.filename
 		"""
@@ -31,7 +45,7 @@ def upload_file():
 			'num_correct': num_correct,
 			'title': f.filename,
 		}
-		return render_template('result.html', info = content, correct = num_correct, title = f.filename)
+		return render_template('uploader.html', info = content, correct = num_correct, title = f.filename)
 		#return ("Score:" + str(num_correct)+ "out of 2 correct.")
 		#return "Successfully"
 		"""

@@ -460,3 +460,253 @@ docker run -p 8888:5000 test1
 docker build -t test2 .
 docker run -p 8888:5000 test2
 docker run -p 8888:5000 test1
+docker ps
+docker ps -a
+docker ps
+docker rm 6a0f93cledf3
+docker container prune
+docker ps
+docker stop test1
+docker ps -a
+docker rm c477cla9b89b
+docker iamges
+docker images
+docker ps
+docker stop test1
+docker rm 6a0f93cledf3
+docker rm -f 6a0f93cledf3
+docker rm -f test1
+docker rm -f vigilant_taussiq
+docker ps
+docker run -p 8888:5000 test1
+docker run -p 8888:5000 
+d
+ls
+git init
+git add .
+git status
+git commit -m "Code for Flask App" 
+git remote add origin https://github.com/TaylorChang7/cs4740-PA-2.git
+git push -u origin master
+cd
+ls
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+sudo apt install unzip; unzip awscliv2.zip
+sudo ./aws/install
+aws configure AKIA3J5CPU5YCGNFW3YF oODhLoNGYq6P/MOlldfZnOL3rFqXJ7QtHFBYMpti 
+aws configure
+ls
+cd templates
+ls
+nano upload.html
+cd;
+ls
+nano app.py
+python app.py
+ls
+cd templates
+ls
+nano home.html
+ls
+cd;
+nano app.py
+python app.py
+cd templates
+ls
+nano home.html
+nano upload.html
+cd;
+python app.py
+ls
+docker ps
+docker stop 6a0f93cledf3
+docker ps
+ls
+python app.py
+ls
+rm subtract.py
+python app.py
+ls
+python app.py
+ls
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 777192974192.dkr.ecr.us-east-1.amazonaws.com
+docker build -t autograde .
+docker tag autograde:latest 777192974192.dkr.ecr.us-east-1.amazonaws.com/autograde:latest
+docker push 777192974192.dkr.ecr.us-east-1.amazonaws.com/autograde:latest
+ls
+nano app.py
+ls
+cd templates
+ls
+nano upload.html
+nano home.html
+python app.py
+cd;
+python app.py
+ls
+cd templates:
+cd templates
+ls
+nano upload.html
+cd;
+nano execute_submission_and_assess_output.sh
+ls
+cd templates
+nano upload.html
+cd;
+rm subtract.py
+ls
+python app.py
+ls
+nano execute_submission_and_assess_output.sh
+rm subtract.py
+python app.py
+nano execute_submission_and_assess_output.sh
+rm subtract.py
+python app.py
+nano execute_submission_and_assess_output.sh
+rm subtract.py
+python app.py
+ls
+cd templates
+ls
+nano upload.html
+cd;
+python app.py
+ls
+rm subtract.py
+python app.py
+cd templates:
+cd templates
+ls
+nano upload.html
+cd;
+ls
+python app.py
+cd templates
+ls
+nano upload.html
+cd;
+ls
+nano app.py
+cd templates:
+cd templates
+ls
+nano upload.html
+cd;
+ls
+nano app.py
+ls
+nano Dockerfile
+cd templates
+nano upload.html
+nano app.py
+ls
+cd;
+nano app.py
+python app.py
+nano app.py
+python app.py 
+nano app.py
+cd templates
+ls
+nano upload.html
+ls
+nv result.html uploader.html
+ls
+mv result.html uploader.html
+ls
+cd;
+ls
+nano app.py
+python app.py
+nano app.py
+python app.py
+nano app.py
+python app.py
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 777192974192.dkr.ecr.us-east-1.amazonaws.com
+docker build -t autograde
+docker tag autograde:latest 777192974192.dkr.ecr.us-east-1.amazonaws.com/autograde:latest
+docker push 777192974192.dkr.ecr.us-east-1.amazonaws.com/autog
+ls
+cd templates
+ls
+nano home.html
+cd;
+nano home.html
+ls
+python app.py
+docker ps
+ls
+python app.py
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 777192974192.dkr.ecr.us-east-1.amazomaws.com
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 777192974192.dkr.ecr.us-east-1.amazonaws.com
+docker tag autograde:latest 777192974192.dkr.ecr.us-east-1.amazonaws.com/autograde:latest
+docker build -t autograde .
+docker push 777192974192.dkr.ecr.us-east-1.amazonaws.com/autograde:latest
+docker build -t pa2_test .
+docker run -p 5000:5000 pa2_test
+ls
+python app.py
+ls
+cd templates
+ls
+cd uploader.html
+nano upload.html
+cd;
+ls
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 777192974192.dkr.ecr.us-east-1.amazonaws.com
+docker build -t autograde2 .
+docker tag autograde2:latest 777192974192.dkr.ecr.us-east-1.amazonaws.com/autograde2:latest
+docker push 777192974192.dkr.ecr.us-east-1.amazonaws.com/autograde2:latest
+ls
+nano app.py
+docker ps
+docker build -t pa2_test .
+docker run -p 5000:5000 pa2_test
+ls
+python app.py
+ls
+nano app.py
+docker build -t pa2_test .
+docker run -p 5000:5000 pa2_test
+nano app.py
+docker build -t pa2_test .
+docker run -p 5000:5000 pa2_test
+python app.py
+ls
+rm subtract.py
+ls
+docker build -t pa2_test .
+docker run -p 5000:5000 pa2_test
+nano app.py
+ls
+nano app.py
+python app.py
+nano app.py
+python app.py
+nano app.py
+python app.py
+nano app.py
+python app.py
+nano app.py
+ls
+nano app.py
+ls
+app python.py
+python app.py
+ls
+cd subtract.py
+ls
+nano app.py
+docker build -t pa2_test .
+docker run -p 5000:5000 pa2_test
+nano app.py
+python app.py
+nano app.py
+docker build -t pa2_test .
+docker run -p 5000:5000 pa2_test
+nano app.py
+python app.py
+docker build -t pa2_test .
+docker run -p 5000:5000 pa2_test
